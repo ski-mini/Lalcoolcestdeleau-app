@@ -1,0 +1,27 @@
+.play {
+    transform: rotate(90deg);
+    transform-origin: 24% 26%;
+    font-family: 'Montserrat Alternates';
+    font-size: 36px;
+    word-wrap: break-word;
+}
+
+.rule{
+    padding-top: 5%;
+}
+
+.playbutton {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 8%;
+    left: 0%;
+    width: 100px;
+}
+
+.leavebutton {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 8%;
+    left: 0%;
+    width: 100px;
+}

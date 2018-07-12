@@ -1,0 +1,46 @@
+body {
+    color:white;
+    background-color:#1D1D1D;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.vtop {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
+
+.vbottom {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
+
+h1 {
+  font-family: 'Sacramento';
+  text-align: center;
+  margin-top: 10%;
+}
+
+h2 {
+  font-family: 'Sacramento';
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sacramento';
+  text-align: center;
+}
+
+.player {
+  background-color: #EEECEC;
+}

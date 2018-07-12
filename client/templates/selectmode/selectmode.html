@@ -1,0 +1,13 @@
+<template name="selectmode">
+    <div class="container theme-showcase" role="main">
+        <h1>L'alcool C'est De L'eau</h1>
+        <br/><br/>
+        <p>Choississez un mode de jeu {{#if equals modefilter 'solo'}}solo{{else}}en équipe{{/if}} :</p>
+        <br />
+        <button type="button" style="text-align:left;" class="btn btn-primary btn-lg btn-block download" >Télécharger un nouveau mode de jeu</button>
+        {{#each modes}}
+            <button type="button" style="text-align:left;" class="btn btn-default btn-lg btn-block create" data-mode="{{deckId}}">{{deckName}}</button>
+        {{/each}}
+
+    </div>
+</template>
